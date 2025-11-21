@@ -1,0 +1,1 @@
+-- Database queries for INFOST 582 database assignment

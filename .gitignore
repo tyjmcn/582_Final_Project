@@ -1,0 +1,20 @@
+# Large data files
+data/raw/*
+!data/raw/.gitkeep
+
+# Sensitive info
+*.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
