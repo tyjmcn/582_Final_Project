@@ -1,7 +1,5 @@
 # 582_Final_Project
 
-## Ty McNulty
-
 ## General Design
 
 ```
