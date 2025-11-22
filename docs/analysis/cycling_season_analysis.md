@@ -49,6 +49,7 @@ The 2025 season shows significant increases across all volume metrics, indicatin
 Different zone thresholds were used for each season to reflect fitness changes:
 
 **2024 Heart Rate Zones:**
+
 - Zone 1: 0-114 bpm
 - Zone 2: 115-151 bpm
 - Zone 3: 152-169 bpm
@@ -56,6 +57,7 @@ Different zone thresholds were used for each season to reflect fitness changes:
 - Zone 5: >188 bpm
 
 **2025 Heart Rate Zones:**
+
 - Zone 1: 0-117 bpm
 - Zone 2: 118-155 bpm
 - Zone 3: 156-174 bpm
@@ -63,6 +65,7 @@ Different zone thresholds were used for each season to reflect fitness changes:
 - Zone 5: >194 bpm
 
 **2024 Power Zones:**
+
 - Zone 1: 0-169 W
 - Zone 2: 170-231 W
 - Zone 3: 232-277 W
@@ -72,6 +75,7 @@ Different zone thresholds were used for each season to reflect fitness changes:
 - Zone 7: >463 W
 
 **2025 Power Zones:**
+
 - Zone 1: 0-179 W
 - Zone 2: 180-257 W
 - Zone 3: 258-293 W
