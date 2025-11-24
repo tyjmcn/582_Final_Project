@@ -6,12 +6,8 @@ library(tidyverse)
 library(scales)
 
 # Load cleaned data
-data_path <- file.path(dirname(dirname(dirname(rstudioapi::getSourceEditorContext()$path))),
-                       "data/cleaned/garmin_cleaned.csv")
-# Fallback for command line execution
-if (!exists("data_path") || !file.exists(data_path)) {
-  data_path <- "data/cleaned/garmin_cleaned.csv"
-}
+# Use command line execution path
+data_path <- "data/cleaned/garmin_cleaned.csv"
 
 df <- read_csv(data_path, show_col_types = FALSE)
 
