@@ -46,7 +46,7 @@ season_data <- cycling_data %>%
 # Convert distance from meters to miles
 season_data <- season_data %>%
   mutate(distance_miles = total_distance / 1609.34,
-         total_hours = total_elapsed_time / 3600)
+         total_hours = total_timer_time / 3600)
 
 # ============================================================================
 # VISUALIZATION 1: Grouped Bar Chart - 2024 vs 2025 Season Comparison

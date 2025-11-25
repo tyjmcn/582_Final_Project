@@ -33,13 +33,13 @@ def add_season_labels(df):
     """
     Add season labels based on cycling season definitions:
     - 2024 Season: Mar-Oct 2024
-    - 2025 Season: Apr-Oct 2025
+    - 2025 Season: Mar-Oct 2025
     """
     def get_season(row):
         year, month = row["year"], row["month"]
         if year == 2024 and 3 <= month <= 10:
             return "2024 Season"
-        elif year == 2025 and 4 <= month <= 10:
+        elif year == 2025 and 3 <= month <= 10:
             return "2025 Season"
         else:
             return "Off-Season"
